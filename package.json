@@ -1,0 +1,30 @@
+{
+    "name": "@sachin-bhawar/core",
+    "version": "1.0.0",
+    "description": "Sachin Bhawar - Frontend Developer Resume",
+    "keywords": [
+        "resume",
+        "cv",
+        "frontend",
+        "developer",
+        "sachin",
+        "bhawar"
+    ],
+    "license": "MIT",
+    "author": "Sachin Bhawar <sachinbhawar@gmail.com>",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "bin": {
+        "sachin-bhawar": "./index.js"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2"
+    }
+}
